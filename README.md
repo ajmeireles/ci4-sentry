@@ -16,7 +16,7 @@ This repository gives you a way (perhaps the only one!) to overwrite CodeIgniter
 composer require sentry/sdk
 ```
 
-2. Clone this repository to the ``app/ThirdParty``
+2. Clone the repository:
 
 ``` bash
 git clone git@github.com:ajmeireles/ci4-sentry.git app/ThirdParty/Sentry
