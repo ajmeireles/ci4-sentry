@@ -1,4 +1,4 @@
-# CodeIgniter 4 && Sentry
+# CodeIgniter 4 & Sentry
 
 ---
 
@@ -19,12 +19,8 @@ composer require sentry/sdk
 2. Clone this repository to the ``app/ThirdParty``
 
 ``` bash
-git clone git@github.com:ajmeireles/ci4-sentry.git
+git clone git@github.com:ajmeireles/ci4-sentry.git app/ThirdParty/Sentry
 ```
-
-The final structure should be this:
-``app/ThirdParty/Sentry/Logger.php``
-
 
 3. Rewrite the CodeIgniter 4 Logger loader:
 
